@@ -75,5 +75,8 @@ const ChatRoom = () => {
 		</div>
 	);
 };
-
+const g =document.getElementById("g");
+cont root=ReactDOM.createRoot(g);
+root.render(<home/>)
+	    
 export default ChatRoom;}
