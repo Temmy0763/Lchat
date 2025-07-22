@@ -1,7 +1,7 @@
-// ChatRoom.js
+
 
 import React, { useState, useEffect } from 'react';
-
+function home(){
 const ChatRoom = () => {
 	const [messages, setMessages] = useState([]);
 	const [user, setUser] = useState('');
@@ -76,4 +76,4 @@ const ChatRoom = () => {
 	);
 };
 
-export default ChatRoom;
+export default ChatRoom;}
